@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/hitmeup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Name Is...</title>
+  </head>
+
+
+  <body>
+    
+
+    <div class="topnav">
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="dance.html">dance things</a>
+        <a href="professional.html">professional</a>
+        <a href="friendsandfam.html">friends&fam</a>
+        <a href="hitmeup.html">hit me up</a>
+      </div>
+
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>  
+
+    <script>
+    
+      function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+      } 
+
+    </script>
+      
+    
+
+
+    <div class="homelink-image">
+      <a href="index.html"><img src="images/2xsbarnitef18.jpg" alt="Barnite Fall 2018"/></a>
+    </div>
+
+
+     <div class="container">
+      <form action="https://formspree.io/mgeewdnw" method="POST">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="whatsup">What's Up</label>
+        <select id="whatsup" name="whatsup">
+          <option value="dance">Dance collaboration</option>
+          <option value="professional">Professional involvement & opportunities</option>
+          <option value="friendship">Friendship</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="I'm listening.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div> 
+
+    <footer>
+      <p>Chairul Karim Lim Che Cheng <br/>
+        the one and only
+    
+      </p>
+       
+    </footer>
+    
+
+  </body>
+
+  <!-- <div class="skip"><a href="#main">Skip to Main Content</a></div> -->
