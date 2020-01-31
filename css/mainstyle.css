@@ -27,6 +27,11 @@ h1{
 
 }
 
+a {
+
+  text-decoration: none;
+  color: #ffb4d9 ;
+}
 
 body{
   background-color: #0c0c0c;
@@ -303,7 +308,7 @@ footer {
   .dance{
     grid-column: 1 / span 1;
     grid-row: 4 / span 1;
-    background: linear-gradient(to left, rgba(140, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
+    background: linear-gradient(to left, rgba(108, 122, 137, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
     background-size: 200% 100%;
     background-position:left bottom;
     transition:all 2s ease;
@@ -330,7 +335,7 @@ footer {
   .professional {
     grid-column: -1 / -2;
     grid-row: 6 / span 1;
-    background: linear-gradient(to left, rgba(140, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
+    background: linear-gradient(to left, rgba(108, 122, 137, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
     background-size: 200% 100%;
     background-position:left bottom;
     transition:all 2s ease;
@@ -359,7 +364,7 @@ footer {
 
     grid-column: 1 / span 1;
     grid-row: 8 / span 1;
-    background: linear-gradient(to left, rgba(140, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
+    background: linear-gradient(to left, rgba(108, 122, 137, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
     background-size: 200% 100%;
     background-position:left bottom;
     transition:all 2s ease;
@@ -385,7 +390,7 @@ footer {
   .hitmeup{
     grid-column: -1 / -2;
     grid-row: 10 / span 1;
-    background: linear-gradient(to left, rgba(140, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
+    background: linear-gradient(to left, rgba(108, 122, 137, 0.8) 50%, rgba(0, 0, 0, 0) 50%);
     background-size: 200% 100%;
     background-position:left bottom;
     transition:all 2s ease;
